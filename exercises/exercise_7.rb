@@ -12,4 +12,4 @@ puts "----------"
 # Your code goes here 
 puts "Gimme a name for your new store!"
 s_name = gets.chomp
-Store.create(name: s_name)
+Store.create(name: s_name).validate_msg
