@@ -9,4 +9,7 @@ require_relative './exercise_6'
 puts "Exercise 7"
 puts "----------"
 
-# Your code goes here ...
+# Your code goes here 
+puts "Gimme a name for your new store!"
+s_name = gets.chomp
+Store.create(name: s_name)
